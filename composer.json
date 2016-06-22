@@ -6,7 +6,9 @@
     "wordpress",
     "language",
     "locales",
-    "multilanguage"
+    "multilanguage",
+    "wpml",
+    "polylang"
   ],
   "homepage": "https://github.com/WPBP/Language",
   "type": "library",
