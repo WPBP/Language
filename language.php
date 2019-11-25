@@ -23,10 +23,10 @@ if ( !function_exists( 'get_language' ) ) {
             return ICL_LANGUAGE_CODE;
         } elseif ( function_exists( 'pll_current_language' ) ) {
             return pll_current_language();
-        } else {
-            // Return a 2-4 letters code
-            return get_locale();
         }
+
+        // Return a 2-4 letters code
+        return get_locale();
     }
 
 }
